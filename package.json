@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "nodemon backend/server.js",
     "start": "node backend/server.js",
-    "build":"npm install && npm install --prefix frontend && npm build --prefix frontend"
+    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "author": "vinay h c",
   "license": "ISC",
