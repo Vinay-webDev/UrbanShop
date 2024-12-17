@@ -1,0 +1,46 @@
+p {
+    /*1. premimum black*/
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    /*2. glass water*/
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    /*3. slick carbon*/
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+    /*4. cloudy knoxville */
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    /*5. saint petersberg*/
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    /*6. snow again*/
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    /*7. feb ink*/
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    /*8. kind steel*/
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    /*9. risky contrete*/
+    background-image: linear-gradient(to top, #c4c5c7 0%, #dcdddf 52%, #ebebeb 100%);
+    /*10. viscious stance */
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+button {
+    /*1. black*/
+    .btn-grad {background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%)}
+    .btn-grad {
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 10px;
+       display: block;
+     }
+
+     .btn-grad:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+    
+}
