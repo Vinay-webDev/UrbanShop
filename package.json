@@ -2,7 +2,7 @@
   "name": "urban-shop",
   "version": "1.0.0",
   "description": "Urban Shop🛍️🛒 a e-commerce store🏪🏬",
-  "main": "backend/sever.js",
+  "main": "backend/server.js",
   "type": "module",
   "scripts": {
     "dev": "nodemon backend/server.js",
