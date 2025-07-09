@@ -17,7 +17,7 @@ const CreateProductsForm = () => {
   })
 
   const { createProduct, loading } = useProductStore();
-  // to make all fields diapper after creating product
+  // to make all fields disapper after creating product
   const handleSubmit = async(e) => {
     e.preventDefault();
     // console.log(newProduct);
@@ -122,14 +122,14 @@ const CreateProductsForm = () => {
               Category
             </label>
             <select
-              id='category'
-              name='category'
-              value={newProduct.category}
-              onChange={(e) => setNewProduct({ ...newProduct, category: e.target.value })}
-              className='mt-1 block w-full bg-gray-700 border border-gray-600 rounded-md
-              shadow-sm py-2 px-3 text-white focus:outline-none 
-              focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
-              required
+                id='category'
+                name='category'
+                value={newProduct.category}
+                onChange={(e) => setNewProduct({ ...newProduct, category: e.target.value })}
+                className='mt-1 block w-full bg-gray-700 border border-gray-600 rounded-md
+                shadow-sm py-2 px-3 text-white focus:outline-none 
+                focus:ring-2 focus:ring-blue-500 focus:border-blue-500'
+                required
             >
               <option value=''>Select a category</option>
               {categories.map((category) => (
